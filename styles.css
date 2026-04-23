@@ -558,7 +558,11 @@ input:focus{
     background: rgba(3, 80, 37, 0.596);
      
 }
-
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 
 .abt {
