@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <title>Appointment</title>
+</head>
+<body class="container">
+    
+    <!--head-->
+    <div class="heading">
+      <h1>Book Your Spa Experience</h1>
+      <h3>Indulge in Relaxation - Schedule Your Appointment Today...</h3>
+    </div>
+   
+    <!--app card-->
+    <form name="Booking" method="post" data-netlify="true" action="success.html">
+            <input type="hidden" name="Form-name" value="booking">
+    
+            <div class="app__card">
+
+          <h2>Appointment Details</h2>
+          
+          
+            <div class="cred">
+          <select name="service" id="service" required>
+                <option value="" disabled selected>Select service</option>
+                <option value="sauna">Sauna</option>
+                <option value="massage">Massage</option>
+                <option value="facial">Facial Care</option>
+                <option value="aroma">Aromatherapy</option>
+            </select>
+            <div class="date__row">
+            <label for="">Select date</label>
+            <input type="date" name="date" required>
+            </div>
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email" name="email" required>
+    </div>
+          <button class="btn2" type="submit">Book Now</button>
+      
+        </div>
+  </form>
+        
+
+
+</body>
+</html>
