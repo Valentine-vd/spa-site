@@ -442,7 +442,7 @@ transition: all 0.35s;
     font-style: italic;
     margin-top: 40px;
 }
-
+/*booking*/
 
 .container{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0.6)),
@@ -506,19 +506,20 @@ select::placeholder{
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+     margin-top: 7px;
 }
 
 .date__row label{
     width: 40%;
     border: none;
-    color: black;
-    margin-bottom: 19px;
+    color: black;  
     background-color: white;
     font-size: 0.8rem;
      background-color: rgb(9, 39, 9);
     border-radius: 10px;
     padding: 10px;
     font-weight: bold;
+   
 }
 
 .date__row input{
@@ -527,12 +528,32 @@ select::placeholder{
 }
 
 input{
-    margin-bottom: 20px;
     border-radius: 10px;
     border: none;
     padding: 10px;
     background-color: rgb(9, 39, 9);
+    width: 350px;
+}
+
+.sele{
+    margin-bottom: 0px;
+}
+
+.namee{
+    margin-top: 10px;
+} 
+
+.mail{
+    margin-top: 10px;
     
+}
+
+.error{
+    color: rgb(21, 255, 0);
+    font-size: 15px;
+    display: block;
+    margin-top: 0px;
+    font-weight: bolder;
 }
 
 input::placeholder{
@@ -551,19 +572,19 @@ input:focus{
     border-radius: 10px;
     border: none;
     background-image: linear-gradient(to right, rgb(1, 36, 1)  0%,  rgb(8, 95, 0)100%);
-    ;
+    margin-top: 10px;
 }
 
 .btn2:hover{
     background: rgba(3, 80, 37, 0.596);
      
 }
+
 .btn2 a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
 
 .abt {
     text-align: center;
@@ -590,11 +611,16 @@ span{
 }
 
 @media screen and (max-width:480px){
-    select{
-        width:300px;
-    }
+   select{
+    width: 300px;
+   } 
+
+   input{
+    width: 300px;
+   }
 }
 
+/*success*/
 .succs{
     text-align: center;
     justify-content: center;
